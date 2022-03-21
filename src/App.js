@@ -7,8 +7,11 @@ function App() {
     var m1 = document.getElementById('month').value;
     var y1 = document.getElementById('year').value;
     var date = new Date();
+    // console.log(date)
     var d2 = date.getDate();
+    // console.log(d2)
     var m2 = 1+date.getMonth();
+    // console.log(m2)
     var y2 = date.getFullYear();
     var month = [31,28,31,30,31,30,31,31,30,31,30,31];
     
